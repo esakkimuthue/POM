@@ -3,8 +3,10 @@
   <groupId>MiniCaseStudyPOM</groupId>
   <artifactId>MiniCaseStudyPOM</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
-	 
+   <dependencies>
+		<!-- https://mvnrepository.com/artifact/org.alfresco.surf/spring-webscripts -->
+
+	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -40,35 +42,9 @@
 	<version>5.7.1</version>
 	</dependency>
 
-<dependency><groupId>org.apache.poi</groupId><artifactId>poi</artifactId><version>5.1.0</version></dependency>
 
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-<dependency>
-	<groupId>org.apache.poi</groupId>
-	<artifactId>poi-ooxml</artifactId>
-	<version>5.1.0</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
-<dependency>
-	<groupId>org.apache.xmlbeans</groupId>
-	<artifactId>xmlbeans</artifactId>
-	<version>5.1.0</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-scratchpad -->
-<dependency>
-	<groupId>org.apache.poi</groupId>
-	<artifactId>poi-scratchpad</artifactId>
-	<version>5.1.0</version>
-</dependency>
-<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
-	<dependency>
-    	<groupId>com.aventstack</groupId>
-    	<artifactId>extentreports</artifactId>
-    	<version>5.0.9</version>
-	</dependency>
-	
-  </dependencies>
-  <build>
+   </dependencies>
+   <build>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -91,4 +67,6 @@
       </plugin>
     </plugins>
  </build>
+
+
 </project>
