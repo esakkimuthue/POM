@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25748" started-at="2023-03-15T18:35:10 IST" finished-at="2023-03-15T18:35:35 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25748" started-at="2023-03-15T18:35:10 IST" finished-at="2023-03-15T18:35:35 IST">
+      <class name="TestScripts.ExScriptFile">
+        <test-method status="PASS" signature="startup()[pri:0, instance:TestScripts.ExScriptFile@7e9a5fbe]" name="startup" is-config="true" duration-ms="3635" started-at="2023-03-15T18:35:10 IST" finished-at="2023-03-15T18:35:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="purchase()[pri:1, instance:TestScripts.ExScriptFile@7e9a5fbe]" name="purchase" duration-ms="1990" started-at="2023-03-15T18:35:13 IST" finished-at="2023-03-15T18:35:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchase -->
+        <test-method status="PASS" signature="additem(java.lang.String)[pri:2, instance:TestScripts.ExScriptFile@7e9a5fbe]" name="additem" duration-ms="4500" started-at="2023-03-15T18:35:15 IST" data-provider="data" finished-at="2023-03-15T18:35:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nokia lumia 1520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additem -->
+        <test-method status="PASS" signature="additem(java.lang.String)[pri:2, instance:TestScripts.ExScriptFile@7e9a5fbe]" name="additem" duration-ms="3831" started-at="2023-03-15T18:35:20 IST" data-provider="data" finished-at="2023-03-15T18:35:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Samsung galaxy s7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additem -->
+        <test-method status="PASS" signature="additem(java.lang.String)[pri:2, instance:TestScripts.ExScriptFile@7e9a5fbe]" name="additem" duration-ms="4252" started-at="2023-03-15T18:35:24 IST" data-provider="data" finished-at="2023-03-15T18:35:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Iphone 6 32gb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additem -->
+        <test-method status="PASS" signature="additem(java.lang.String)[pri:2, instance:TestScripts.ExScriptFile@7e9a5fbe]" name="additem" duration-ms="3688" started-at="2023-03-15T18:35:28 IST" data-provider="data" finished-at="2023-03-15T18:35:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sony vaio i7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additem -->
+        <test-method status="PASS" signature="delete()[pri:3, instance:TestScripts.ExScriptFile@7e9a5fbe]" name="delete" duration-ms="123" started-at="2023-03-15T18:35:32 IST" finished-at="2023-03-15T18:35:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="PASS" signature="placeorder()[pri:4, instance:TestScripts.ExScriptFile@7e9a5fbe]" name="placeorder" duration-ms="3678" started-at="2023-03-15T18:35:32 IST" finished-at="2023-03-15T18:35:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeorder -->
+      </class> <!-- TestScripts.ExScriptFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
